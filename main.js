@@ -1,6 +1,6 @@
 window.onload = function(){
-  var canvas = document.getelementById("canvas"),
-      context = canvas.width = window.innerWidth,
+  var canvas = document.getElementById("canvas"),
+      context = canvas.getContext("2d"),
       width = canvas.widht = window.innerWidth,
       height = canvas.height = window.innerHeight,
       handle = {
